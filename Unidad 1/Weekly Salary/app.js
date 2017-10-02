@@ -9,7 +9,7 @@ function weekSalary(hours, payment){
 function numberOfDigits(number){
   var counter = 0;
   var digits = number.toString();
-  for(var i = 0; i < digits.length; i++);{
+  for(var i = 0; i < digits.length; i++){
     counter++;
   }
   return counter;
