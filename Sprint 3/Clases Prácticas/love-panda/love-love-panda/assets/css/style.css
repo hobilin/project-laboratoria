@@ -1,0 +1,112 @@
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+#panda-desu-p {
+  width: 100%;
+  height: auto;
+  background-color: #F78E69;
+  color: #fff;
+  padding-bottom: 3%;
+  padding: 2em;
+}
+
+#panda-title {
+  text-align: right;
+  font-weight: bold;
+  font-size: 3em;
+  padding-right: 0.5em;
+  padding-bottom: 0.6em;
+}
+
+#panda-subtitle {
+  text-align: right;
+  font-weight: 400;
+  font-size: 1em;
+  margin-left: 100px;
+  padding-right: 1.3em;
+}
+
+
+#panda1{
+  filter: grayscale(100%);
+  object-fit: cover;
+  height: 30em;
+}
+
+#panda2 {
+  filter: grayscale(100%);
+  object-fit: cover;
+  height: 40em;
+}
+
+#panda3 {
+  filter: grayscale(100%);
+  object-fit: cover;
+  height: 40em;
+}
+
+
+.line {
+  background-color: #F78E69;
+  width: 100%;
+  height: 1.5em;
+}
+
+#container-about, #container-pictures {
+  padding: 3.5em;
+  background-color: #ABE188
+}
+
+
+#about-pandas{
+  color: #FFF;
+ background-color: #F78E69;
+ text-align: center;
+ padding: 2em;
+
+}
+
+#about-pandas h1 {
+  padding-bottom: 1em;
+}
+
+ #about-pandas p {
+   font-size: 1.2em;
+   font-weight: 300;
+ }
+
+#pictures h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 3em;
+  padding: 0.5em;
+}
+
+#pictures img {
+  border: 0.5em solid #fff;
+  margin: 2em;
+
+}
+
+#footer  {
+background-color: #F78E69;
+  width: 100%;
+  color: #fff;
+  text-align: right;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 1em 0.5em 0.5em 0.5em;
+
+}
+
+
+@media (max-width: 450px) {
+  [class*="col-"] {
+    width: 100%;
+    }
+}
