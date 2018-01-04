@@ -1,0 +1,358 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.mb-1 {
+  margin-bottom: 1em;
+}
+
+.mb-2 {
+  margin-bottom: 2em;
+}
+
+.mt-1 {
+  margin-top: 1em;
+}
+
+.mt-2 {
+  margin-top: 2em;
+}
+
+.icon-input {
+text-align: center;
+background-color: transparent;
+border: 1px solid #ccc;
+}
+
+.logo {
+  width: 8em;
+  height: 8em;
+}
+
+#return-signUp:hover {
+  cursor: pointer;
+}
+
+.warn-iconMail {
+  background-color: rgb(217, 116, 134);
+}
+
+#warn-mail {
+  color: rgb(212, 30, 62);
+  font-size: 0.8em;
+
+}
+
+#map {
+  height: 5em;
+  width: 5em;
+}
+
+
+div.navbar{
+  font-size: 1.4em;
+}
+div.navbar p{
+  margin-top: 0.5em;
+}
+.logo1 img{ /*IMAGEN LOGO INICIO*/
+  width: 2em;
+  height: 2em;
+  margin-right: -0.5em;
+}
+li .us{
+  font-size: 0.8em;
+  margin-top: 0.2em;
+}
+/*BOTON REGISTRO*/
+#registro.botonregistro{
+  margin-left: 45em;
+  margin-top: 1.2em;
+  background-color: #;
+  letter-spacing: 1px;
+
+}
+
+/*section dos (imagen estática)*/
+
+.dos{
+  background-image: url(../img/istock.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 46.5em;
+  margin-top: 10em;
+  text-align: center;
+
+}
+.login{
+  outline: 1px solid orange;
+  height: 25em;
+  width: 30em;
+  float: right;
+  margin-top: -2em;
+  margin-right: 6em;
+  padding: 2em;
+}
+.mail{
+  margin-top: 2em;
+}
+.pass{
+  margin-top: 1.2em;
+}
+#send{
+  margin-top: 0.5em;
+  letter-spacing: 1px;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+}
+.recuperar{
+  margin-top: 1em;
+  font-size: 0.9em;
+}
+.recuperar a:hover{
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+/*
+#loginrrss p{
+  font-size: 0.9em;
+}
+#loginrrss.btn{
+  margin-right: 20em;
+} */
+
+/*MENÚ CONTENIDO*/
+.navbar2{
+  height: 0.4em;
+}
+.menufijo{
+  padding-top: 0.2em;
+  padding-bottom: -0.2em;
+}
+li i{
+  margin-left: 2em;
+}
+li .fa{
+  font-size: 0.8em;
+  text-align: center;
+  vertical-align: center;
+}
+li .fa-home{
+  margin-left: 5em;
+}
+.logo2 img{
+  width: 1.1em;
+  height: 1.1em;
+  margin-left: 9em;
+}
+.busqueda #srch-term{
+  margin-left: 9em;
+  width: 13em;
+  border-right: none;
+}
+#btnsearch{
+  margin-left: 0em;
+  border-left: none;
+  width: 2.5em;
+}
+#btnsearch .glyphicon-search{
+  margin-left: 0em;
+}
+li #user{
+  border-radius: 5em;
+  width: 1.3em;
+  height: 1.3em;
+  margin-left: 2em;
+
+}
+
+/* DESCRIPCIÓN USER GENERAL*/
+.user img{
+  border-radius: 2em;
+  width: 10em;
+  margin-left: 4.95em;
+  margin-top: -42em;
+  border-color: #000;
+}
+.infouser{
+  outline: 1px solid #c0c0c0;
+  height: 20em;
+  width: 20em;
+  margin-top: 8.5em;
+  margin-left: 1em;
+}
+.info{
+  text-align: left;
+  margin-left: 1.5em;
+  padding-top: 2.4em;
+}
+.info .name h3{
+  text-align: center;
+  margin-bottom: 1.1em;
+  font-size: 1.8em;
+}
+.info p{
+  font-size: 1.1em;
+}
+.info .description p{
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 1.1em;
+}
+/*ALIANZAS*/
+.menualianza{
+  margin-left: 2.15em;
+  /*outline: 1px solid green; */
+  height: 25em;
+  width: 20em;
+  margin-top: 2em;
+}
+.menualianza h2{
+  font-size: 1.5em;
+  text-align: center;
+}
+#alianza-user{
+  border-radius: 5em;
+  width: 4em;
+  height: 4em;
+  text-decoration: center;
+}
+#alianza-marca{
+  border-radius: 5em;
+  width: 3.8em;
+  height: 3.8em;
+  text-decoration: center;
+  margin-top: 1.5em;
+}
+img.user1, img.user4, img.user7{
+  margin-left: 1em;
+}
+img.marca1, img.marca4, img.marca7{
+  margin-left: 1em;
+}
+.imagenesalianza img, .imagenesmarcas img{
+  margin-top: 1.2em;
+}
+.imagenesmarca{  /*NO VISIBLE AGREGAR FUNCIÓN PARA CAMBIAR ESTATUS POR MENU*/
+  display: none;
+}
+.flecha-down i.fa{
+  margin-left: 10em;
+  margin-top: 2em;
+}
+
+/*Publicación usuario*/
+
+.post{
+  outline: 1px solid orange;
+  height: 11em;
+  margin-top: 1.4em;
+}
+textarea.txt{
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 0.5em;
+  margin-bottom: 0.6em;
+  resize: none;
+  padding: 0.4em;
+  height: 6.7em;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+button.lanzar{
+  float: right;
+  margin-right: 3em;
+  letter-spacing: 1px;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+
+}
+span i.fa-camera{
+  font-size: 2em;
+  margin-left: 2em;
+}
+span i.ubicacion{
+  font-size: 2em;
+  margin-left: 1em;
+}
+div.historial{
+  height: 100em;
+  width: 100%;
+  outline: 1px solid orange;
+  margin-left: 0em;
+  margin-top: 0.89em;
+  padding: 1em;
+}
+.post1{
+  outline: 1px solid blue;
+  padding: 0.4em;
+  margin-bottom: 1em;
+}
+.userpost{
+  border-radius: 5em;
+  width: 4em;
+  height: 4em;
+}
+hr {
+  margin-top: -4em;
+}
+h4.username{
+  font-size: 1.4em;
+}
+p.usertime{
+  color: #a5a0a0;
+  font-size: 0.8em;
+  margin-top: -0.7em;
+}
+.puntitos .fa-ellipsis-v{
+  font-size: 2em;
+  margin-top: 0.5em;
+}
+.texto{
+  /*outline: 1px solid red; */
+  margin-top: 1em;
+  margin-left: 2em;
+  width: 90%;
+}
+.thumbnail{
+  margin: 1em;
+  margin-top: 0.5em;
+  margin-bottom: -10em;
+
+}
+.thumbnail img{
+  width: 100%;
+}
+.icons{
+  margin-top: -0.3em;
+  text-align: center;
+  border-top: 1px solid #000;
+  padding-top: 1.2em;
+  width: 95%;
+
+}
+div.icons{
+  margin-left: 1em;
+}
+.icons .fa{
+  font-size: 1.5em;
+  /*color: #1daa01; */
+}
+.sugerencias{
+  outline: 1px solid orange;
+  width: 100%;
+  height: 20em;
+}
